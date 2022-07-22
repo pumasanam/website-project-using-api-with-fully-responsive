@@ -1,0 +1,39 @@
+.datacreate{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 2.8rem 0px;
+    margin-top: 70px;
+}
+
+.datacreate form input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    padding: 15px 5px;
+    margin: 15px 0px;
+    font-size: 0.8rem;
+}
+
+.datacreate form button{
+    border: none;
+    outline: none;
+    background-color: darkgreen;
+    color: white;
+    padding: 13px 30px;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.datacreate form button:hover{
+    background-color: green;
+}
+
+@media screen and (max-width:810px){
+    .datacreate{
+        width: 85%;
+    }
+}

@@ -1,0 +1,44 @@
+.admin{
+    width: 85%;
+    margin: 70px auto 0px auto;
+    padding: 2rem 0px 3rem 0px;
+    text-align: center;
+}
+
+.admin h1{
+    margin-bottom: 1rem;
+}
+
+.admin table{
+    width: 100%;
+}
+
+
+tr td button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin:10px;
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+
+tr td button:nth-child(2){
+    margin-right: 0px;
+}
+
+tr td .edit{
+    background-color: green;
+}
+
+
+@media screen and (max-width:540px){
+    .admin{
+        width: 90%;
+    }
+}
+
